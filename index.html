@@ -140,6 +140,90 @@
             font-size: 14px;
         }
 
+        @media (max-width: 768px) {
+    
+        .container {
+            flex-direction: column;
+            padding: 12px;
+        }
+    
+        .main,
+        .sidebar {
+            width: 100%;
+            padding: 15px;
+        }
+    
+        nav {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            font-size: 16px;
+            padding: 12px;
+        }
+    
+        nav a {
+            padding: 6px 10px;
+        }
+    
+        header h1 {
+            font-size: 20px;
+        }
+    
+        header p {
+            font-size: 13px;
+        }
+    
+        .box {
+            padding: 15px;
+        }
+    
+        h2 {
+            font-size: 20px;
+        }
+    
+        h3, h4 {
+            font-size: 16px;
+        }
+    
+        p, li {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 15px;
+        }
+    
+        pre, code {
+            font-size: 13px;
+            padding: 12px;
+        }
+    
+        iframe {
+            height: 250px;
+    }
+}
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 480px) {
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 13px;
+        padding: 15px;
+    }
+}
+
+
     </style>
 </head>
 <body>
@@ -315,3 +399,4 @@ npm run dev
 
 </body>
 </html>
+
